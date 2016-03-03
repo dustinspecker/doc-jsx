@@ -3,5 +3,8 @@
   "extends": "dustinspecker/esnext",
   plugins: [
     "no-use-extend-native"
-  ]
+  ],
+  env: {
+    browser: true
+  }
 }
